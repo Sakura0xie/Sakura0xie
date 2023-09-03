@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+
+int main()
+{
+	int input1 = 0;
+	int input2 = 0;
+	printf("你认识谢晋宇吗,认识输入0，不认识输入1");
+	scanf("%d", &input1);
+	if (input1 == 0)
+	{
+		printf("那你挺吊的\n");
+		printf("那你觉得谢晋宇帅吗？帅输入0 不帅输入1\n");
+		scanf("%d", &input2);
+		if (input2 == 0)
+			printf("不错，有品味\n");
+		else
+			printf("进厂打螺丝去吧");
+	}
+	else
+		printf("进厂打螺丝去吧");
+	return 0;
+}
